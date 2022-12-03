@@ -53,7 +53,7 @@ func FrequencySort(s string) string {
 		a := o[i]
 		b := o[j]
 
-		if a == nil && b == nil {
+		if a == nil {
 			return false
 		}
 
